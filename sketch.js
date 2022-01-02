@@ -15,7 +15,7 @@ The p5.js library will automatically call the setup() function and create an HTM
 
 function setup() {
     // Setup code goes here
-    // TODO: Create a canvas that is 400px wide and 400px tall
+    // Create a canvas that is 400px wide and 400px tall
     createCanvas(400, 400)
         // We can call the background() function after the canvas is created to set a solid color for the background. The background() function is only executed one time, because it is called in the setup() function.
     frameRate(1) // Run the draw() function once per second

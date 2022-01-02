@@ -4,7 +4,6 @@ p5.js is a JavaScript library that makes it incredibly simple to get started wit
 
 Using the metaphor of a sketchbook, p5.js encourages an approach to programming called sketching as code, where it is easy to add, remove, and change lines of code to create generative programs. We refer to programs made with p5.js as sketches. However, you’re not limited to your drawing canvas—you can think about the whole browser as your sketch. p5.js makes it easy to interact with HTML objects and the world wide web!
 
-An open-source community actively develops the p5.js library, and you can contribute to its development at [https://p5js.org/](p5js.org).
+An open-source community actively develops the p5.js library, and you can contribute to its development at [p5js.org](https://p5js.org/).
 
-<hr />
-For more information about how you can download and include the p5.js library in your HTML document, refer to the Creating a Local p5.js Project refer to this [https://codecademy.com/content-items/afb30bd43e459950d831f09a907101fd/]("article").
+For more information about how you can download and include the p5.js library in your HTML document, refer to the Creating a Local p5.js Project refer to this [article](https://codecademy.com/content-items/afb30bd43e459950d831f09a907101fd/).

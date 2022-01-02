@@ -22,10 +22,12 @@ function setup() {
 }
 
 function draw() {
-    background(Math.floor(Math.floor(Math.random() * 256)))
+    background(Math.floor(Math.floor(Math.random() * 156)))
         // Drawing code goes here
         // The draw() function is similar to the setup() function in that p5.js will automatically execute it at the right time. The draw() function will run after all the code in the setup() function is complete. Note that like the setup() function, the draw() function should not be explicitly called.
 
     //Unlike the setup() function, the draw() function will repeatedly execute in what is known as the draw loop. The draw() function is also referred to as the draw() loop because the code block in the function will execute infinitely until the sketch ends by closing the browser window or navigating away from the sketch. The draw loop will also terminate when the noLoop() function is called.
 
 }
+
+/*First, the HTML page loads the library, then the setup() function is automatically called once and creates an HTML <canvas> element, and finally, the draw() function runs in an infinite loop.*/

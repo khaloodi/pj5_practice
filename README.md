@@ -7,4 +7,4 @@ Using the metaphor of a sketchbook, p5.js encourages an approach to programming 
 An open-source community actively develops the p5.js library, and you can contribute to its development at [https://p5js.org/](p5js.org).
 
 <hr />
-For more information about how you can download and include the p5.js library in your HTML document, refer to the Creating a Local p5.js Project refer to this [https://codecademy.com/content-items/afb30bd43e459950d831f09a907101fd/]('article').
+For more information about how you can download and include the p5.js library in your HTML document, refer to the Creating a Local p5.js Project refer to this [https://codecademy.com/content-items/afb30bd43e459950d831f09a907101fd/]("article").

@@ -3,7 +3,8 @@ The setup() function is a built-in p5.js function used to set the sketch’s ini
 */
 
 /*
-You might have noticed that the setup() function is never explicitly called in the sketch. That is because the p5.js library automatically executes a sequence of functions, like setup(), which should be called by the library, not the programmer.
+- setup() function is never explicitly called in the sketch
+- p5.js library automatically executes a sequence of functions, like setup(), which should be called by the library, not the programmer
 
 Let’s take a look at the order of events when an HTML page that includes the p5.js library and a p5.js sketch file is loaded:
 

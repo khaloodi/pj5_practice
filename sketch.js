@@ -19,15 +19,15 @@ function setup() {
     // Create a canvas that is 400px wide and 400px tall
     createCanvas(1440, 400)
         // We can call the background() function after the canvas is created to set a solid color for the background. The background() function is only executed one time, because it is called in the setup() function.
-        // frameRate(1) // Run the draw() function once per second
-    background('rgba(0,255,0, 0.25)')
+    frameRate(10) // Run the draw() function once per second
 }
 
 function draw() {
-    // flicker different grey backgrounds:
-    // background(Math.floor(Math.floor(Math.random() * 156)))
-    // Drawing code goes here
-    // The draw() function is similar to the setup() function in that p5.js will automatically execute it at the right time. The draw() function will run after all the code in the setup() function is complete. Note that like the setup() function, the draw() function should not be explicitly called.
+    background('rgba(0,255,0, 0.25)')
+        // flicker different grey backgrounds:
+        // background(Math.floor(Math.floor(Math.random() * 156)))
+        // Drawing code goes here
+        // The draw() function is similar to the setup() function in that p5.js will automatically execute it at the right time. The draw() function will run after all the code in the setup() function is complete. Note that like the setup() function, the draw() function should not be explicitly called.
 
     //Unlike the setup() function, the draw() function will repeatedly execute in what is known as the draw loop. The draw() function is also referred to as the draw() loop because the code block in the function will execute infinitely until the sketch ends by closing the browser window or navigating away from the sketch. The draw loop will also terminate when the noLoop() function is called.
     rect(30, 20, 100, 200)
